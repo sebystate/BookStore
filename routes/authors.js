@@ -17,8 +17,7 @@ router.get('/', async (req, res) => {
         })
     } catch {
         res.redirect('/')
-    }
-    
+    } 
 })
 
 // New Author Route (just display the form)
